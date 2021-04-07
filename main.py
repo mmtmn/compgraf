@@ -4,10 +4,10 @@
 import os
 
 def main():
-    print("press 1 to graph circle using a parametric equation")
-    print("press 2 to graph a elipse using a parametric equation")
-    print("press 3 to graph a circle using a quadritic function")
-    print("press 4 to exit \n")
+    print("Press 1 to graph circle using a parametric equation")
+    print("Press 2 to graph a elipse using a parametric equation")
+    print("Press 3 to graph a circle using a quadritic function")
+    print("Press 4 to exit \n")
     while True:
         try:
             x = int(input('Your choice: '))
@@ -32,9 +32,9 @@ def main():
     elif x == 4:
         del x
         os.system('cls||clear')
-        print("\nthank you so much for you time!\n")
+        print("\nThank you so much for you time!\n")
         exit()
     else:
-        print("sorry, that's not an option")
+        print("Sorry, that's not an option")
 
 main()
