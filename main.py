@@ -20,8 +20,8 @@ def main():
     if x ==2:
         del x
         os.system('cls||clear')
-        from parametric import Parametric
-        Parametric()
+        from parametric import Circle
+        Circle()
     if x == 3:
         del x
         os.system('cls||clear')
