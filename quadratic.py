@@ -1,8 +1,13 @@
+# to run this project: main.py
+# made by Thiago M Nóbrega
+
 import matplotlib.pyplot as plt
 from numpy import sqrt
 import os
 
-def QuadraticFunction():
+def Circle():
+    """ This function was an attempt to solve the game using logic
+    """
     amount = []
     x = -2
     while x <= 2: 
