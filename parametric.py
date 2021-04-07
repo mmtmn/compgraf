@@ -47,7 +47,7 @@ def Circle():
         if pick == 1:
             #left
             x1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points-change)
             plt.scatter(x1,y)
@@ -58,7 +58,7 @@ def Circle():
         elif pick == 2:
             #right
             x1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points+change)
             plt.scatter(x1,y)
@@ -69,7 +69,7 @@ def Circle():
         elif pick == 3:
             #up
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points+change)
             plt.scatter(x,y1)
@@ -80,7 +80,7 @@ def Circle():
         elif pick == 4:
             #down
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points-change)
             plt.scatter(x,y1)
@@ -93,7 +93,7 @@ def Circle():
             # diagonal up-left
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points-change)
             for points in y:
@@ -107,7 +107,7 @@ def Circle():
             #diagonal up-right
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points+change)
             for points in y:
@@ -121,7 +121,7 @@ def Circle():
             #diagonal down-left
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points-change)
             for points in x:
@@ -135,7 +135,7 @@ def Circle():
             #diagonal down-right
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points-change)
             for points in x:
@@ -205,7 +205,7 @@ def Ellipse():
         if pick == 1:
             #left
             x1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points-change)
             plt.scatter(x1,y)
@@ -216,7 +216,7 @@ def Ellipse():
         elif pick == 2:
             #right
             x1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points+change)
             plt.scatter(x1,y)
@@ -227,7 +227,7 @@ def Ellipse():
         elif pick == 3:
             #up
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points+change)
             plt.scatter(x,y1)
@@ -238,7 +238,7 @@ def Ellipse():
         elif pick == 4:
             #down
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points-change)
             plt.scatter(x,y1)
@@ -251,7 +251,7 @@ def Ellipse():
             # diagonal up-left
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points-change)
             for points in y:
@@ -265,7 +265,7 @@ def Ellipse():
             #diagonal up-right
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in x:
                 x1.append(points+change)
             for points in y:
@@ -279,7 +279,7 @@ def Ellipse():
             #diagonal down-left
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points-change)
             for points in x:
@@ -293,7 +293,7 @@ def Ellipse():
             #diagonal down-right
             x1 = []
             y1 = []
-            change = int(input("How many much would you like to move to the left? (please use integers)\n"))
+            change = int(input("How much would you like to move to the left? (please use integers)\n"))
             for points in y:
                 y1.append(points-change)
             for points in x:
