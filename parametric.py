@@ -1,16 +1,26 @@
 import math as m
 import matplotlib.pyplot as plt
 
-def Parametric():
-    x = 0.0
-    r = 1
-    while x < 10:
-        cos = m.cos(x)
-        sen = m.sin(x)
-        plt.plot(r*cos,r*sen,"ro")
-        x = x + 0.01
-    plt.show()
+#def Parametric():
+i = 0.0
+r = 1
+x = []
+y = []
+lines = int(input("how many lines?"))
+while i < lines+1:
+    cos = m.cos(i)
+    sin = m.sin(i)
+    rcos = r*cos
+    rsin = r*sin
+    x.append(rcos)
+    y.append(rsin)
+    del rcos, rsin
+    i = i + 1
 
+plt.scatter(x,y)
+plt.plot(x, y)
+plt.show()
+"""
     print("press 1 to go back to main menu: ")
     while True:
         try:
@@ -25,3 +35,4 @@ def Parametric():
         main()
     else:
         print("sorry, not an option")
+"""

@@ -19,7 +19,7 @@ def main():
         QuadraticFunction()
     if x ==2:
         del x
-        os.sytem('cls||clear')
+        os.system('cls||clear')
         from parametric import Parametric
         Parametric()
     if x == 3:
