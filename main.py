@@ -7,7 +7,6 @@ def main():
     print("press 1 to graph circle using a parametric equation")
     print("press 2 to graph a elipse using a parametric equation")
     print("press 3 to graph a circle using a quadritic function")
-    
     print("press 4 to exit \n")
     while True:
         try:

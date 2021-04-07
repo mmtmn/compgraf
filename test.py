@@ -1,7 +1,10 @@
 # to run this project: main.py
 # made by Thiago M Nóbrega
 
-import math as m
+
+# this is a testing file, where tests took place
+
+"""import math as m
 import matplotlib.pyplot as plt
 
 # parametric equation 
@@ -25,7 +28,7 @@ while i < lines+1:
 
 plt.scatter(x,y)
 plt.plot(x, y)
-plt.show()
+plt.show()"""
 
 
 
